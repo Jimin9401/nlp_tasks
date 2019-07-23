@@ -6,15 +6,15 @@ task 별 논문구현
 written by Jimmy Hong 
 
 > NMT 
->> sequence to sequence with attention 
->> convolutional sequence to sequence
->> Transformer 
+- sequence to sequence with attention 
+- convolutional sequence to sequence
+- Transformer 
 
 
 > QA
->> Bidirectional Attention flow
->> Dynamic Co-attention network
->> End-to-End Memory network
+- Bidirectional Attention flow
+- Dynamic Co-attention network
+- End-to-End Memory network
 
 
 
