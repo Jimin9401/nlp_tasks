@@ -16,4 +16,4 @@ task 별 논문구현
 
 
 
-< written by Jimmy Hong>
+< written by Jimmy Hong >
