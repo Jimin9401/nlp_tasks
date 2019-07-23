@@ -13,7 +13,9 @@ written by Jimmy Hong
 
 ### QA
 - Bidirectional Attention flow
+- Dynamic Co-attention network
 - End-to-End Memory network
+
 
 
 
