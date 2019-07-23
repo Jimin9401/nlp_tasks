@@ -1,62 +1,66 @@
-from load_csv import load_pair
-from preprocessing import tokenize,make_dictionary,convert2idx
+import torch.optim as optim
 import torch
-from torch.utils.data import DataLoader,Dataset
 import torch.nn as nn
-import numpy as np
-from utils import pad_sequence,makeData
-import copy
+
+import argparse
 
 
+from load_csv import load_pair
+from preprocessing import tokenize,make_dictionary,src_convert,trg_convert,prepare_data
+from model import EncoderDecoder
+from train import train
 
-from model_semi import Embedding,clones,LayerNorm,PositionwiseFeedforward,SubLayerConnection,EncoderLayers,Encoder,MultiHeadAttention
-
-import torch.nn.functional as F
-
-trg,src=load_pair("../da    ")
-
-
-src_ix=tokenize(src)
-
-tgt_ix=tokenize(trg)
-
-eng2idx,idx2eng=make_dictionary(src_ix)
-tgt2idx,idx2es=make_dictionary(tgt_ix)
+torch.manual_seed(777)
+device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
 
-src_sentences=convert2idx(src_ix,eng2idx)
+import pandas as pd
 
-tgt_sentences=convert2idx(tgt_ix,tgt2idx)
-
-
-
-train_data=makeData(src_sentences,tgt_sentences)
+parser=argparse.ArgumentParser()
 
 
-train_loader=DataLoader(dataset=train_data,collate_fn=pad_sequence,batch_size=100)
+parser.add_argument("-path", type=str, help="directory for reading file",default="C://Users/Jimmy Hong/PycharmProjects/NMT/Data/translation_pair.csv")
 
-for (X_batch,y_batch) in train_loader:
-    print(X_batch)
+parser.add_argument('-head', type=int, help="How many number of Layers?", default=8)
+parser.add_argument('-d_model', type=int, help="magnitude of embedding dimension?", default=512)
+parser.add_argument('-d_ff', type=int, help="How many will iterate?", default=2048)
+
+parser.add_argument('-N', type=int, help="how many stack>", default=6)
+
+parser.add_argument('-iterator', type=int, help="How many will iterate?", default=10)
+
+parser.add_argument('-test_size', type=float, help="test_size", default=.2)
+parser.add_argument('-lr', type=float, help="learning_rate", default=1e-3)
+parser.add_argument('-weight_decay', type=float, help="weight_decay", default=1e-5)
+parser.add_argument('-batch_size', type=int, help="batch size", default=12)
 
 
+def main():
+    args=parser.parse_args()
+    trg,src=load_pair(args.path)
 
-embedding=Embedding(vocab_size=len(eng2idx),d_model=512,padding_idx=0)
 
-X_embed=embedding(X_batch)
+    src_ix=tokenize(src)
 
-X_pad=(X_batch==0).unsqueeze(-2)
+    tgt_ix=tokenize(trg)
 
-norm=LayerNorm(512)
+    eng2idx,idx2eng=make_dictionary(src_ix)
+    tgt2idx,idx2es=make_dictionary(tgt_ix)
 
-sublayer=SubLayerConnection(512)
-attn=MultiHeadAttention(512,8,0)
 
-ff=PositionwiseFeedforward(512,2048,0.1)
+    src_sentences=src_convert(src_ix,eng2idx)
+    tgt_sentences=trg_convert(tgt_ix,tgt2idx)
 
-Encoders=EncoderLayers(2,sublayer=sublayer,attention=attn,feed_forward=ff)
+    train_loader,test_loader=prepare_data(src=src_sentences,trg=tgt_sentences,test_size=args.test_size,batch_size=12)
+    transformer=EncoderDecoder(d_model=args.d_model,h=args.head,src_num=len(eng2idx),tgt_num=len(tgt2idx),N=args.N,device=device,d_ff=args.d_ff)
 
-Encoders.forward(X_embed,X_pad).size()
-# encoder 6-stacks
 
-#remain.. decoder part
+    criterion=nn.CrossEntropyLoss()
+    optimizer=optim.Adam(transformer.parameters(),lr=args.lr,weight_decay=args.weight_decay)
 
+    train(model=transformer,iterator=args.iterator,optimizer=optimizer,criterion=criterion,
+          train_loader=train_loader,teacher_force=True,test_loader=test_loader,device=device)
+
+
+if __name__=="__main__":
+    main()

@@ -4,7 +4,6 @@ from model import subsequent_mask
 from torch.autograd import Variable
 
 
-batch_size=100
 
 
 class Batch:
@@ -46,7 +45,7 @@ class makeData(Dataset):
 
 def pad_sequence(batch):
     X_batch, y_batch = zip(*batch)
-
+    batch_size=len(X_batch)
     X_max_seq_length = max([len(x) for x in X_batch])
     X_res = []
     for seq in X_batch:
