@@ -3,6 +3,8 @@
 task 별 논문구현
 
 
+written by Jimmy Hong 
+
 ### NMT 
 - sequence to sequence with attention
 - convolutional sequence to sequence
@@ -16,4 +18,3 @@ task 별 논문구현
 
 
 
-written by Jimmy Hong 
