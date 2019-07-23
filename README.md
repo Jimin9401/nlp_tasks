@@ -2,12 +2,18 @@
 
 task 별 논문구현
 
-## NMT 
+
+### NMT 
 - sequence to sequence with attention
 - convolutional sequence to sequence
 - Transformer 
 
 
-## QA
+### QA
 - Bidirectional Attention flow
-- End-to-Enc Memory network
+- End-to-End Memory network
+
+
+
+
+>> written by Jimmy Hong
