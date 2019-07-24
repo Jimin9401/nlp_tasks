@@ -26,14 +26,7 @@ def main():
     train_batch,val,test,vocab=dataloader(batch_size=args.batch_size,memory_size=5,task=1,joint=False,tenK=False)
 
 
-
-
-    for batch in train_batch:
-        memory=batch.story
-        query=batch.query
-        answer=batch.answer
-
-
+#####
     model=MemoryNetwork(vocab_size=len(vocab),d=args.embedding_dim,N=args.N)
 
 

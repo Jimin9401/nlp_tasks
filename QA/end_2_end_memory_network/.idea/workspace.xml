@@ -2,281 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d49210e-13c4-42af-a1ed-1ac75e29dfec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../NMT/attention_is_all_you_need/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../NMT/conv_seq2seq/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../NMT/transformer/.idea/transformer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MemoryNetwork/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/end2end_memorynetwork.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/AAAREADMEDOC.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/ABODAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/APPLING1DAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/APPLING2DAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/ASHFORDDAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/ASHFORDDOC.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/BLOORDAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/CHESDAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/CHESDOC.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/EXAMSDAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/FAWTHROP1DAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/FAWTHROP2DAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/FAWTHSHEFDOC.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/GATESDAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/GATESDOC.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/HOLBROOKDAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/HOLBROOKDOC.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/INTRODOC.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/MASTERSDAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/NFER1DAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/NFER2DAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/NFERDOC.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/PERIN1DAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/PERIN2DAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/PERIN3DAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/PERINDOC.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/PETERS1ADAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/PETERS1DAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/PETERS2DAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/PETERSDOC.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/SAMPLESDAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/SHEFFIELDDAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/SUOMIDAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/TELEMARKDAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/TESDELLDAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/UPWARDDAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/WINGDAT.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/0643/0643/WINGDOC.643" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/1000sents.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/SQUADToken.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/SQUAD_v2.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/common-missspell-word/words.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/en_artificial_token.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/squad_test.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/tasks_1-20_v1-1.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data/translation_pair.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/attention_is_all_you_need/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../NMT/attention_is_all_you_need/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/conv_seq2seq/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../NMT/conv_seq2seq/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/conv_seq2seq/models/ConvS2s.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/seq2seq_model.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596585.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596587.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596589.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596593.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596594.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596597.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596599.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596602.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596604.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596607.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596609.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596613.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596615.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596617.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596620.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596624.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596627.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596630.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596633.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596635.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596638.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596641.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596644.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596647.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596650.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596653.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596655.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596657.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596660.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596662.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596664.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596665.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596667.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596669.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596671.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596673.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596675.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596677.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596679.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596681.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596682.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596686.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596689.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596691.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596693.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596695.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596697.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596699.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596701.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596703.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596705.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596707.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596709.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596711.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596713.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596716.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596718.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596720.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596722.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596724.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596727.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596729.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596731.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596733.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596735.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596736.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596738.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596740.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596743.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596745.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596747.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596750.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596753.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596756.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596759.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596762.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596765.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596768.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596769.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596771.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596774.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596777.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596780.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596782.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596786.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596788.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596790.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596792.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596794.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596797.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596799.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596800.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596802.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596805.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596808.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596810.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596812.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596814.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596816.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596818.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596820.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596822.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596825.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596828.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596829.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596832.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596835.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596838.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596840.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596842.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596845.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596847.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596849.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596851.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596853.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596855.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596857.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596859.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596861.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596864.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596866.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NMT/seq2seq_with_attention/ssibal/events.out.tfevents.1562596868.DESKTOP-A34UV2B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bi-DAF/SQUAD_v2.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MemoryNetwork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MemoryNetwork/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/.idea/untitled.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/shuffle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Lib/tcl8.6/init.tcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/Activate.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_asyncio.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_bz2.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_contextvars.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_ctypes.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_ctypes_test.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_decimal.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_distutils_findvs.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_elementtree.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_hashlib.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_lzma.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_msi.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_multiprocessing.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_overlapped.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_queue.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_socket.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_sqlite3.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_ssl.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_testbuffer.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_testcapi.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_testconsole.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_testimportmultiple.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_testmultiphase.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/_tkinter.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/activate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-console-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-datetime-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-debug-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-errorhandling-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-file-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-file-l1-2-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-file-l2-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-handle-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-heap-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-interlocked-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-libraryloader-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-localization-l1-2-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-memory-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-namedpipe-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-processenvironment-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-processthreads-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-processthreads-l1-1-1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-profile-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-rtlsupport-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-string-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-synch-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-synch-l1-2-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-sysinfo-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-timezone-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-core-util-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-crt-conio-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-crt-convert-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-crt-environment-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-crt-filesystem-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-crt-locale-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-crt-math-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-crt-multibyte-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-crt-private-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-crt-process-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-crt-time-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/concrt140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/deactivate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/msvcp140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/msvcp140_1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/msvcp140_2.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/pyexpat.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/python.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/python3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/python37.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/pythonw.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/select.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/tcl86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/tk86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/ucrtbase.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/unicodedata.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/vccorlib140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/vcomp140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/vcruntime140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/winsound.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/xlwings32-0.15.1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/Scripts/xlwings64-0.15.1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/venv/python.exe/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -285,12 +11,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eval.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -298,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="66" column="23" lean-forward="true" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+            <state relative-caret-position="1178">
+              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -310,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="255">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -361,9 +87,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -372,31 +98,11 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="end2end_memorynetwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="end2end_memorynetwork" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="end2end_memorynetwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="end2end_memorynetwork" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="end2end_memorynetwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="end2end_memorynetwork" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="python.exe" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -455,25 +161,20 @@
       <option name="presentableId" value="Default" />
       <updated>1563938529811</updated>
       <workItem from="1563938531288" duration="6893000" />
+      <workItem from="1563945986799" duration="16000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6893000" />
+    <option name="totallyTimeSpent" value="6909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Python Console" visible="true" weight="0.32956153" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -481,11 +182,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,14 +205,14 @@
     <entry file="file://$PROJECT_DIR$/eval.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="66" column="23" lean-forward="true" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+        <state relative-caret-position="1178">
+          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
@@ -524,8 +231,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="255">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
