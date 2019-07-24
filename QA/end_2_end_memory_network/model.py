@@ -10,7 +10,7 @@ def attention(query, memory, context, mask=None, dropout=None):
     scores = torch.matmul(query, memory.transpose(1, 2)) / np.sqrt(memory.size(-1))
 
     if mask is not None:
-        scores = scores.masked_fill(mask.unsqueeze(-1) == 0, -1e9)
+        scores = scores.masked_fill(mask.unsqueeze(1) == 0, -1e9)
 
     p_attn = F.softmax(scores, dim=-2)
 
@@ -50,6 +50,7 @@ class Memory(nn.Module):
         self.embedder_C = nn.Embedding(num_embeddings=vocab_size, embedding_dim=d)
 
     def forward(self, sentence):
+        mask=torch.sum(sentence,dim=-1)
         m = self.embedder_A.forward(sentence)
         c = self.embedder_C.forward(sentence)
 
@@ -61,7 +62,7 @@ class Memory(nn.Module):
         m += position_encoding_init(seq_lens, dim)
         c += position_encoding_init(seq_lens, dim)
 
-        return torch.sum(m, dim=-2), torch.sum(c, dim=-2)
+        return torch.sum(m, dim=-2), torch.sum(c, dim=-2),mask
 
 
 class Query(nn.Module):
@@ -82,8 +83,8 @@ class MQAttention(nn.Module):
 
         self.linear = nn.Linear(d, d)
 
-    def forward(self, u, m, c):
-        o = attention(query=u, memory=m, context=c)
+    def forward(self, u, m, c,memory_mask):
+        o = attention(query=u, memory=m, context=c,mask=memory_mask)
 
         return self.linear(o + u)
 
@@ -95,10 +96,10 @@ class Hop(nn.Module):
         self.mqattn = MQAttention(d=d)
         self.norm=LayerNorm(d)
     def forward(self, memory, query_embed):
-        m, c = self.memory_embedder.forward(memory)
+        m, c,mask = self.memory_embedder.forward(memory)
         query_embed
 
-        output = self.mqattn.forward(u=query_embed, m=m, c=c)
+        output = self.mqattn.forward(u=query_embed, m=m, c=c,memory_mask=mask)
 
         return self.norm(output)
 
