@@ -1,6 +1,10 @@
-# NLP_tasks
+﻿# NLP_tasks
 
-task 별 논문구현
+state-of-the-arts papers in NLP 
+
+categorizing by tasks
+
+if exists any errors in my code, plz let me know it
 
 
 written by Jimmy Hong 
