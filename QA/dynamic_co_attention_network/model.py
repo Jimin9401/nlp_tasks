@@ -156,7 +156,7 @@ class Decoder(nn.Module):
         n_batches = ut.size(0)
         dim = ut.size(2)
 
-        hx, cx = torch.zeros([n_batches, dim // 2]).to(device), torch.zeros([n_batches, dim // 2]).to(device)
+        hidden, cell = torch.zeros([n_batches, dim // 2]).to(device), torch.zeros([n_batches, dim // 2]).to(device)
 
         start, end = torch.LongTensor([0] * n_batches).to(device), torch.LongTensor([0] * n_batches).to(device)
 
@@ -170,8 +170,8 @@ class Decoder(nn.Module):
 
         for i in range(self.iters):
 
-            alpha, beta,hidden,cell,start_state,end_state,start,end=self.HMN.forward(ut,start_state=start_state,end_state=end_state,hidden=hx,cell=cx)
-
+            alpha, beta,hidden,cell,start_state,end_state,start,end=self.HMN.forward(ut,start_state=start_state,end_state=end_state,\
+                                                                                     hidden=hidden,cell=cell)
             entropies.append([alpha, beta])
 
         return start, end, entropies
